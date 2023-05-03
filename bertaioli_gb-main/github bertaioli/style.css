@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cabecalho{
+    background-color: aqua;
+    color:black;
+display: flex;
+ justify-content: space-around;
+align-items: center;
+padding: 20px 0;
+}
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 25px;
+}
+ .escola-imagem{
+    width: 25%;
+ }
+ .escola{
+    background-image: -moz-linear-gradient(#284E51, #C0CACD);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+ }
+.escola-conteudo{
+    width: 30%;
+}
+ .escola-conteudo{
+    padding: 25px 0;
+ }
